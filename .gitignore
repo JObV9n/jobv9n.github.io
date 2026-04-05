@@ -1,0 +1,22 @@
+# Ignore everything by default
+*
+
+# Include build output (dist folder)
+!dist/
+!dist/**
+
+# Include assets folder
+!assets/
+!assets/**
+
+# Include public assets
+!public/
+!public/**
+
+# Keep the .gitignore itself
+!.gitignore
+
+# Still ignore OS and editor files even in included directories
+**/.DS_Store
+**/Thumbs.db
+**/*.log
