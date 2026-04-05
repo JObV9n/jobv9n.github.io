@@ -1,22 +1,43 @@
-# Ignore everything by default
-*
+# Dependencies
+node_modules/
 
-# Include build output (dist folder)
-!dist/
-!dist/**
+# OS files
+.DS_Store
+Thumbs.db
 
-# Include assets folder
-!assets/
-!assets/**
+# Logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
 
-# Include public assets
-!public/
-!public/**
+# Editor directories and files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-workspace
+*.sublime-project
 
-# Keep the .gitignore itself
-!.gitignore
+# Environment files
+.env
+.env.local
+.env.*.local
 
-# Still ignore OS and editor files even in included directories
-**/.DS_Store
-**/Thumbs.db
-**/*.log
+# Cache
+.cache/
+.parcel-cache/
+
+# Local build testing
+.vercel/
+.netlify/
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Optional npm cache
+.npm/
+
+# Coverage
+coverage/
